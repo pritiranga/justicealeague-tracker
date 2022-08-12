@@ -13,12 +13,12 @@ phases:
   build:
     commands:
     - echo building the justiceleague-tracker
-    - mvn install
+    
 artifacts:
   files:
   - target/*.jar
   - scripts/*.sh
-  - appspec.yml
+
   discard-paths: yes
 
 cache:
